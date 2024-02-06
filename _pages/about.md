@@ -44,6 +44,7 @@ for(i in 1:1000) {
 how do i commit things to github?
 
 ```
+cd ~/desktop/wb/MargotBerman1.github.io
 git add .
 git commit -m "commit details"
 git push origin
