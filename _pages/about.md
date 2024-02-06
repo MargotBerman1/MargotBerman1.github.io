@@ -41,9 +41,15 @@ for(i in 1:1000) {
 ```
 
 
+how do i commit things to github?
 
 ```
-import pandas as pd
+git add .
+git commit -m "commit details"
+git push origin
+
 ```
+
+
 
 
