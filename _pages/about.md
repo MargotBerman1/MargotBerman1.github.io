@@ -13,13 +13,33 @@ Modeling a country's vulnerability to de-risking
 hopefully I am able to do that
 
 
-does this `inine code` work?
+I will code things
+======
 
-how about this?
+see example below
 
 ```
-def hello_world():
-    print("Hello, World!")
+
+ar1_gen <- function( nobs, sd) {
+  y <- rep(0,nobs)
+  for(t in 2:nobs) {
+    y[t] <- y[t-1] + rnorm(1, mean = 0, sd=sd)
+  }
+  return(y)
+}
+
+
+test_statistic <- rep(0,1000)
+p_values <- rep(0,1000)
+for(i in 1:1000) {
+  x <- ar1_gen(nobs = 50, sd=1)
+  y <- ar1_gen(nobs = 50, sd=1)
+  test_statistic[i] <- summary(lm(y~x))$coefficients[1,3]
+  p_values[i] <- summary(lm(y ~ x))$coefficients[2, 4]
+}
+
 ```
+
+
 
 
