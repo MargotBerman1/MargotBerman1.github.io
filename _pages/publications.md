@@ -1,8 +1,7 @@
 ---
 layout: archive
-title: "Publications"
+title: "Relevant Publications"
 permalink: /publications/
-author_profile: true
 ---
 
 {% if author.googlescholar %}
