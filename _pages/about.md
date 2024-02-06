@@ -11,3 +11,15 @@ redirect_from:
 Modeling a country's vulnerability to de-risking
 ======
 hopefully I am able to do that
+
+
+does this `inine code` work?
+
+how about this?
+
+```
+def hello_world():
+    print("Hello, World!")
+```
+
+
