@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : &name "Margot Berman"
-  avatar           : &photo "profile.jpeg"
+  avatar           : &photo "profile.png"
   bio              : &bio "Welcome to my website! Here you can find updates and information on my project with the World Bank"
   location         : &location "Washington DC"
   employer         :
